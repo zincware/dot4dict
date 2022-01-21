@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/zincware/dot4dict/badge.svg?branch=main)](https://coveralls.io/github/zincware/dot4dict?branch=main)
 # Dot4Dict
 
 Access dictionary keys with a Dot:
