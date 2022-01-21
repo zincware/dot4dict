@@ -17,8 +17,8 @@ def test_create_double_depth():
 def test_update_single_depth():
     test_dict = dotdict({"a": 5})
     test_dict["b"] = 25
-    assert test_dict['a'] == 5
-    assert test_dict['b'] == 25
+    assert test_dict["a"] == 5
+    assert test_dict["b"] == 25
 
     assert test_dict.a == 5
     assert test_dict.b == 25
