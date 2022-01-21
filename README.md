@@ -1,4 +1,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/zincware/dot4dict/badge.svg?branch=main)](https://coveralls.io/github/zincware/dot4dict?branch=main)
+[![PyPI version](https://badge.fury.io/py/dot4dict.svg)](https://badge.fury.io/py/dot4dict)
 # Dot4Dict
 
 Access dictionary keys with a Dot:
