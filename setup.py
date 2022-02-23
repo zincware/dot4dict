@@ -6,7 +6,7 @@ long_description = pathlib.Path("README.md").read_text()
 
 setuptools.setup(
     name="dot4dict",
-    version="0.1.0",
+    version="0.1.1",
     author="zincwarecode",
     author_email="zincwarecode@gmail.com",
     description="A Python Package to enable dot-notation on dictionaries",
@@ -17,9 +17,9 @@ setuptools.setup(
     keywords=["dotdict", "dict2dot"],
     packages=setuptools.find_packages(),
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)",
+        "License :: OSI Approved :: Apache License 2.0",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.7",
