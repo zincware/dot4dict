@@ -21,3 +21,8 @@ my_dict = dotdict({"a": {"b": {"c": "foo"}}})
 
 assert my_dict.a.b.c == "foo"
 ```
+
+Copyright
+=========
+
+This project is distributed under the [Apache license version 2.0](https://github.com/zincware/dot4dict/blob/main/LICENSE).

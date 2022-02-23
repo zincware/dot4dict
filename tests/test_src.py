@@ -32,3 +32,17 @@ def test_update_double_depth():
     assert test_dict["b"].c == 125
     assert test_dict.b["c"] == 125
     assert test_dict.b.c == 125
+
+
+def test__dir__():
+    test_dict = dotdict({(1, 2): 10})
+    assert test_dict.__dir__() == []
+
+    test_dict = dotdict({(1, 2): 10, "a": 5})
+    assert test_dict.__dir__() == ["a"]
+
+    test_dict = dotdict({"a": 5})
+    assert test_dict.__dir__() == ["a"]
+
+    test_dict = dotdict({"a": 5, "b": 10})
+    assert test_dict.__dir__() == ["a", "b"]
